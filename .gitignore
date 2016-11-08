@@ -1,0 +1,8 @@
+gwt-unitCache/
+bin/
+.project
+.settings
+.classpath
+.gradle/
+war/es6proxydemo
+war/WEB-INF/deploy
