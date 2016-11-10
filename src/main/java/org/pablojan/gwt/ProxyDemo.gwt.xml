@@ -22,6 +22,7 @@
   <source path="js/**" />
   <source path="proxy/**" />
   <source path="types/**" />
+  <source path="client/**" />
   
 
 </module>

@@ -44,6 +44,23 @@ Note: functions and Objects are exposed in the namespace "swell".
 
 ```
 
+Using methods:
+
+```
+var c = new swell.Client();
+
+var options = { objectId : "x3432s" };
+
+var callback = {
+
+	onError: function(e) { console.log("onError "+e); },
+	onSuccess: function(r) { console.log("onSuccess "+r.data); }
+
+}
+
+c.open(options, callback);
+```
+
 ### Run
 
 This projects uses Gradle:
